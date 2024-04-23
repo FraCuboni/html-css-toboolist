@@ -21,8 +21,17 @@ header ::before{
 }
 .navsection{
     border-bottom: 1px solid black;
-    background-color: red;
+    background-color: white;
     padding: 15px 50px 10px;
+}
+.navsection :first-child{
+    background-color: lightskyblue;
+    color: white;
+    border-color: lightskyblue;
+}
+.navsection :last-child{
+    color: lightgrey;
+    border-color: lightgrey;
 }
 .topbuttons{
     display: inline;
@@ -31,6 +40,13 @@ header ::before{
     border-radius: 5px;
 }
 .tasksection{
-    background-color: blue;
+    background-color: white;
     padding: 50px;
+}
+.liltitle{
+    font-weight: bold;
+}
+
+.liltitle ::before{
+    content: url(../img/Logo.png);
 }
