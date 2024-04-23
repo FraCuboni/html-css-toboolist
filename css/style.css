@@ -18,7 +18,7 @@ header{
     padding: 10px;
 }
 header ::before{
-    content: url(../img/Logo.png);
+    content: url(../img/logo\ copia.png);
     display: flex;
     align-items: center;
 }
@@ -27,6 +27,7 @@ header>div{
     font-weight: bolder;
     display: flex;
     align-items: center;
+    border-top: 0;
 }
 .maincontainer{
     border-radius: 5px;
@@ -53,18 +54,17 @@ header>div{
     padding: 0.3em;
     border-radius: 5px;
 }
-.tasksection{;
-    padding: 50px;
+.tasksection{
+    padding: 0 50px 50px;
 }
-.tasksection>div{
+.tasksection>div>div{
     margin: 10px;
 }
 .liltitle{
     font-weight: bold;
-    border: 20px;
+    padding-top: 20px;
 }
 .compressed{
-    font-size: 10px;
 }
 .rounded{
     border: 1px solid black;
@@ -72,5 +72,38 @@ header>div{
     padding: 0 3px;
     font-size: 15px ;
 }
+.accepted{
+    color: lightgreen;
+    border-color: lightgreen;
+}
+.refused{
+    color: red;
+    border-color: red;
+}
 
+.lastlinesub{
+    display: inline;
+    color: white;
+    font-size: 10px;
+    border-radius: 10px;
+    padding: 5px;
 
+}
+.ceditorial{
+    background-color: red;
+}
+.cq1_goals{
+    background-color: red;
+}
+.crecruiting{
+    background-color: red;
+}
+.cmobile{
+    background-color: red;
+}
+.cwebsite{
+    background-color: red;
+}
+.csales{
+    background-color: red;
+}
