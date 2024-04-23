@@ -63,5 +63,14 @@ header>div{
     font-weight: bold;
     border: 20px;
 }
+.compressed{
+    font-size: 10px;
+}
+.rounded{
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 0 3px;
+    font-size: 15px ;
+}
 
 
