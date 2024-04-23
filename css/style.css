@@ -13,15 +13,14 @@ header{
 }
 header ::before{
     content: url(../img/logo\ copia.png);
-    display: flex;
-    align-items: center;
+    vertical-align: middle;
 }
 header>div{
-    font-size: 40px;
+    display: inline;
     font-weight: bolder;
-    display: flex;
-    align-items: center;
     border-top: 0;
+    vertical-align: middle;
+    font-size: 40px;
 }
 .maincontainer{
     border-radius: 5px;
